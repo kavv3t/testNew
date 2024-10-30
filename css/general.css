@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.menu_hamburger {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    gap: 2rem;
+}
+
+.border {
+    border-top: solid 2px black;
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.containerTexte {
+    width: 40%;
+    height: 100%;
+}
+
+.container > section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texte1 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0rem;
+}
+
+.texte1 > h1 {
+    font-size: 3rem;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+}
+
+.texte1 > h1 > a {
+    color: #7353ff;
+    text-decoration: none;
+}
+
+.texte1 > p {
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.buttun1 {
+    background-color: rgb(115, 83, 255);
+    color: white;
+    border: none;
+    width: auto;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 5px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.services {
+    display: flex;
+}
+
+
+
+.buttun {
+    background-color: rgb(115, 83, 255);
+    color: white;
+    border: none;
+    width: auto;
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 5px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.scrollButtondeux {
+    background-color: rgb(115, 83, 255);
+    color: white;
+    border: none;
+    width: auto;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.scrollButtondeux > a{
+    background-color: rgb(115, 83, 255);
+    color: white;
+    text-decoration: none;
+}
+
+
+
+  
+.container, .animation {
+    height: 100vh; 
+    scroll-snap-align: start;
+}
+
+.animation {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    box-sizing: border-box;
+}
+
+
+.texte2 > h1 {
+    font-size: 3rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.texte2 > h1 > a {
+    color: #7353ff;
+    text-decoration: none;
+}
+
+.texte2 > p {
+    font-size: 1.5rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.image_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    gap: 4rem;
+    padding: 4rem;
+}
+
+.image_container > section {
+    height: 80%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.image_container > section > img {
+ width: 100%;
+ height: 100%;
+ max-height: 100%;
+ transition: 0.3s ease;
+ object-fit: cover;
+}
+
+.image_container > section > img:hover{
+    transition: 0.3s ease;
+    transform: scale(1.5);
+}
+
+
+.sectionValeur {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 4rem;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    height: 320px;
+    padding: 3rem;
+    width: 25%;
+    align-items: center;
+    border: solid 2px rgb(115, 83, 255); 
+    margin-bottom: 100px;
+    border-radius: 15px;
+    box-shadow: 0px -20px rgb(115, 83, 255);
+}
+
+
+
+.section1 > h2 {
+    font-size: 2.5rem;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.containerimage p {
+    font-size: 1.1rem;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.containerimage {
+    display: flex;
+}
+.containerimage > img{
+    width: 10rem;
+}
+
+
+
+.first {
+    opacity: 0;
+    transform: translateY(-30%);
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.second {
+    opacity: 0;
+    transform: translateY(20%);
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.third {
+    opacity: 0;
+    transform: translateY(-30%);
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+
+.sectionImage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sectionImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+.section1 .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.section1:hover .overlay {
+    opacity: 1;
+    transition: all 0.6s ease;
+}
+
+.scrollButton > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.item > ul > li  {
+    color: #7353ff;
+}
+
+.services {
+    margin: 0;
+    padding: 0;
+}
+.service-item {
+    list-style: none;
+}
+.toggle-checkbox {
+    display: none;
+}
+
+.service-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.service-header > h5,i {
+    font-size: 2rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.chevron {
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+    color: #7353ff;
+}
+
+
+.over {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+
+.toggle-checkbox:checked + .service-header .chevron {
+    transform: rotate(90deg);
+}
+.toggle-checkbox:checked ~ .over {
+    max-height: 200px; 
+    opacity: 1;
+    margin-top: 5px;
+}
+.description {
+    width:  100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+
+}
+
+.services {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 8rem;
+    padding-left: 8rem;
+} 
+
+.services section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    
+    
+}
+
+.over > p {
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.3rem;
+    height: auto;
+}
+
+.over {
+    height: auto;
+    margin: none;
+}
+
+.description > h2{
+    font-size: 3rem;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 4rem;
+}
+
+.description > h3 {
+    font-size: 2rem;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+
+.titreh2 {
+    margin: 5rem;
+    text-align: center;
+}
+
+.titreh2 > h2 {
+    font-size: 2.5rem;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 4rem;
+} 
+
+.buttun1 {
+    background-color: rgb(115, 83, 255);
+    color: white;
+    border: none;
+    width: auto;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+  @media screen and (max-width: 1350px) {
+  
+
+    .sectionValeur {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding: 1rem;
+    }
+    
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        position: relative;
+        height: 400px;
+        padding: 3rem;
+        width: 20%;
+        align-items: center;
+        border: solid 2px rgb(115, 83, 255); 
+        margin-bottom: 100px;
+        border-radius: 15px;
+        box-shadow: 0px -20px rgb(115, 83, 255);
+        text-align: center;
+    }
+    
+    .section1 .overlay {
+        display: none;
+    }
+    
+    .section1 > h2 {
+        font-size: 1.5rem;
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    .section1 > p {
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .containerimage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .containerimage > img{
+        width: 10rem;
+        object-fit: cover;
+    }
+    
+}  
+  

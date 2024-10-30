@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b67f073596.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" media="(max-width: 700px)" href="../responsive/contactMobile.css">
+    <link rel="stylesheet" media="(max-width: 700px)" href="../responsive/headerMobile.css">
+    <link rel="stylesheet" media="(max-width: 700px)" href="../responsive/footerMobile.css">
+    <meta name="Contact" content="Cette page permet de prendre contact avec nous de plusieurs manières différentes."/>
+</head>
+<body>
+    <script async src="js/test.js"> </script>
+    <script  async src="js/scroll2.js"></script>
+    <header>
+        <img src="../images/Logo.png" alt="logo" class="logo">
+        <nav class="nav-links">
+            <ul>
+                <li><a href="../index.html">Acceuil</a></li>
+                <li><a href="about.html">À propos de Nous</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="conctact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="../images/menu-btn2.png" alt="menu hamburger" class="menu_hamburger">    
+    </header>
+    <main>
+        <section class="contact">
+                <form action="#">
+                    <p class="underline">Une idée de projet ? Contactez nous</p>
+                    <label class="my-20" for="surname">Prénom*</label>
+                    <input type="text" name="name" id="surname">
+                    <label class="my-20" for="name">Nom*</label>
+                    <input type="text" name="name" id="name">
+                    <label class="my-20" for="email">Email*</label>
+                    <input type="email" name="email" id="email">
+                    <label class="my-20" for="siteSelect">choisissez le type de site internet*</label>
+                    <select name="site" id="siteWeb">
+                        <option value="">--veuillez choisir le site web--</option>
+                        <option value="vitrine">site vitrine</option>
+                        <option value="réservation">site de réservation</option>
+                    </select>
+                    <label class="my-20" for="questions">description</label>
+                    <textarea name="questions" id="questions"></textarea>
+                    <button class="scrollButton deux" onclick="scrollToSection('scroll2')">soumettre</button>
+                </form>
+        </section>
+        <section class="aside">
+            <div class="titre">
+                <h1>CONTACTEZ NOUS</h1>
+                <h2>Nous sommes là pour vous aider</h2>
+            </div>
+            <ul>
+                <li><a href=""><i class="fa-solid fa-phone"></i>téléphone</a><a href="" class="a">+32(0)495890117</a></li>
+                <li><a href=""><i class="fa-solid fa-house"></i>Website</a><a href="" class="a">https://kavv3t.github.io/FloozY/</a></li>
+                <li><a href=""><i class="fa-solid fa-envelope"></i>Email</a><a href="" class="a">ahdf.developpement@otlook.com</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section class="item">
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i></li> 
+                 <li><i class="fa-brands fa-twitter"></i></li>
+                 <li><i class="fa-brands fa-instagram"></i></li>
+                 <li><i class="fa-brands fa-linkedin"></i></li>
+             </ul>
+        </section>
+       <section class="droit">
+            <a href="">© 2024 HDF, SRL. Tous droits réservés</a>
+            <a href="">Condition d'utilisation</a>
+            <a href="">Conditions générales de vente<br>Paramètres de confidentialité et de cookies<br>Guides</a>
+            <a href="">Mentions légales</a>
+            <a href="">Politique de confidentialité et de gestion des cookies</a>
+       </section>
+    </footer>
+</body>
+<script src="../js/menu.js"></script>
+</html>
+
+
+

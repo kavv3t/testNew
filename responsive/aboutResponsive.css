@@ -1,0 +1,114 @@
+.present {
+  flex-direction: column;
+  gap: 80px;
+}
+
+.pres1,
+.pres2,
+.pres3 {
+  transform: translateX(0);
+}
+
+.pres3 {
+  box-shadow: 10px 10px rgb(115, 84, 255);
+}
+
+.line {
+  width: 60%;
+  top: 113rem;
+  height: 6px;
+}
+
+.premiere {
+  zoom: 0.85;
+}
+
+/*.deuxieme {
+  zoom: 0.85;
+}*/
+
+.troisieme {
+  zoom: 0.85;
+}
+
+@media screen and (max-width: 600px) {
+  .line {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .partie2 {
+    margin-top: 15vh;
+  }
+
+  .textOne,
+  .textTwo {
+    font-size: 1.07rem;
+    width: 35%;
+  }
+
+  .textOne {
+    left: 2rem;
+  }
+
+  .textTwo {
+    right: 2rem;
+  }
+
+  .premiere {
+    zoom: 0.7;
+  }
+  
+  /*.deuxieme {
+    zoom: 0.7;
+  }*/
+
+  .troisieme {
+    zoom: 0.7;
+  }
+
+  .line {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .premiere {
+    zoom: 0.6;
+  }
+  
+  /*.deuxieme {
+    zoom: 0.6;
+  }*/
+
+  .troisieme {
+    zoom: 0.6;
+  }
+
+  footer {
+    zoom: 0.8;
+  }
+
+  .present {
+    zoom: 0.6;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .premiere {
+    zoom: 0.6;
+  }
+  
+  /*.deuxieme {
+    zoom: 0.6;
+  }*/
+
+  .troisieme {
+    zoom: 0.6;
+  }
+
+  footer {
+    zoom: 0.6;
+  }
+}

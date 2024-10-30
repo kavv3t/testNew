@@ -1,0 +1,86 @@
+
+.container > section {
+  width: 400px;
+  height: 300px;
+}
+
+.premiere {
+  zoom: 0.85;
+}
+
+.deuxieme {
+  zoom: 0.85;
+}
+
+.troisieme {
+  zoom: 0.85;
+}
+
+@media screen and (max-width: 500px) {
+  .titre > h1 {
+    font-size: 3rem;
+  }
+  
+  .container > section {
+    width: 350px;
+    height: 250px;
+  }
+
+  .premiere {
+    zoom: 0.7;
+  }
+  
+  .deuxieme {
+    zoom: 0.7;
+  }
+
+  .troisieme {
+    zoom: 0.7;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container > section {
+    width: 300px;
+    height: 200px;
+  }
+
+  .premiere {
+    zoom: 0.6;
+  }
+  
+  .deuxieme {
+    zoom: 0.6;
+  }
+
+  .troisieme {
+    zoom: 0.6;
+  }
+
+  footer {
+    zoom: 0.8;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container > section {
+    width: 300px;
+    height: 200px;
+  }
+
+  .premiere {
+    zoom: 0.6;
+  }
+  
+  .deuxieme {
+    zoom: 0.6;
+  }
+
+  .troisieme {
+    zoom: 0.6;
+  }
+
+  footer {
+    zoom: 0.6;
+  }
+}

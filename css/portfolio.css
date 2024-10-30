@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+body {
+  font-family: "Afacad Flux", sans-serif;
+}
+
+header {
+  top: 0;
+}
+
+main {
+  height: auto;
+}
+
+.titre {
+  position: relative;
+  top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.titre > h1 {
+  font-size: 3rem;
+}
+
+.titre > h1 > span {
+  color: rgb(115, 84, 255);
+} 
+
+.container {
+  padding-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 30%;
+  align-content: space-between;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.container > section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 400px;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 8px;
+  background-image: url("../images/image1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.container > section:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  filter: brightness(40%);
+  transition: 0.2s;
+}
+
+.contImg > p {
+  display: block;
+  color: black;
+  font-size: 2.5rem;
+  transition: 0.2s;
+}
+
+.container > section:hover > .contImg > p {
+  display: block;
+  transform: 0.2s;
+}

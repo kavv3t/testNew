@@ -1,0 +1,111 @@
+
+@media screen and (max-width: 700px) {
+  .menu_hamburger {
+    display: block;
+    z-index: 2;
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    right: 0.5rem;
+    top: 0.5rem;
+  }
+  
+  .nav-links {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(39, 38, 38, 0.656);
+    backdrop-filter: blur(3px);
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -105vw;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    box-sizing: border-box;
+  }
+  
+  .nav-links.active {
+    margin-left: 0;
+  }
+  
+  
+  .nav-links > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 0%;
+  }
+  
+  .nav-links > ul > li > a {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 10rem;
+  }
+  
+  .item {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .item > ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .item > ul > li {
+    list-style-type: none;
+    font-size: 2rem;
+    color: #7353ff;
+  }
+  
+  .droit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    padding: 0rem 2rem 2rem 2rem;
+    box-sizing: border-box;
+  }
+  
+  .droit > a {
+    text-decoration: none;
+    color: black;
+    font-family: "Afacad Flux", sans-serif; 
+  } 
+}
+
+@media screen and (min-width: 1400px) {
+  .item > ul > li {
+    font-size: 2vw;
+  }
+
+  .droit > a {
+    font-size: 1rem;
+  }
+}

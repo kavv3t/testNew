@@ -1,0 +1,50 @@
+.haut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  zoom: 1.5;
+}
+
+.mid {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+  zoom: 1.5;
+}
+
+.bas1 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  height: 400px;
+  width: 40%;
+  align-items: center;
+  border: solid 2px rgb(115, 83, 255); 
+  margin-bottom: 100px;
+  border-radius: 15px;
+  box-shadow: 0px -20px rgb(115, 83, 255);
+}
+
+
+.img1 {
+  background: url("../images/value.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  width: 400px;
+  height: 40vw;
+}
+.nav-links.active {
+  margin-left: 0;
+}

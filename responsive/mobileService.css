@@ -1,0 +1,311 @@
+
+
+h2 {
+  padding-top: 80px;
+}
+
+main {
+  padding-top: 100px;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mid > section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  width: 50%;
+  height: 350px;
+}
+
+.subIm1,
+.subIm2,
+.subIm3 {
+  width: 220px;
+  height: 220px;
+  background-size: contain;
+}
+
+.scrollButton {
+  background-color: rgb(115, 83, 255);
+  color: white;
+  border: none;
+  width: auto;
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 5px 60px;
+  border-radius: 10px;
+}
+
+.deux {
+  padding: 5px 40px;
+}
+
+.trois {
+  padding: 5px 50px;
+}
+
+.border {
+  margin-top: 5vh;
+}
+
+.bas1 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  height: 300px;
+  width: 80%;
+  align-items: center;
+  border: solid 2px rgb(115, 83, 255); 
+  margin-bottom: 100px;
+  border-radius: 15px;
+  box-shadow: 0px -20px rgb(115, 83, 255);
+}
+
+.img1 {
+  background: url("../images/value.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  width: 300px;
+  height: 40vw;
+}
+
+.bas1 > section > div > p {
+  position: relative;
+  right: 10px;
+  width: 45vw;
+  font-size: 3vw;
+}
+
+h4 {
+  font-size: 4vw;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 4rem;
+}
+
+.item {
+  width: 30vh;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.item > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.item > ul > li {
+  list-style-type: none;
+  font-size: 2rem;
+  color: #7353ff;
+}
+
+.droit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  padding: 0rem 2rem 2rem 2rem;
+  box-sizing: border-box;
+}
+
+.droit > a {
+  text-decoration: none;
+  color: black;
+  font-family: "Afacad Flux", sans-serif; 
+}
+
+
+@media screen and (min-width: 701px) {
+  .subSec {
+    width: 40vw;
+  }
+
+  .subSec > div > p {
+    font-size: 2.1vw;
+  }
+
+  h3 {
+    font-size: 3vw;
+  }
+
+  .subIm1,
+  .subIm2,
+  .subIm3 {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+  }
+
+  .bas1 > section > div > p {
+    font-size: 22px;
+    width: 48vw;
+  }
+}
+
+@media screen and (max-width: 620px) and (min-width: 551px) {
+  .bas1 {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 550px) and (min-width: 481px) {
+  .bas1 {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .menu_hamburger {
+    display: block;
+    z-index: 2;
+    margin-left: auto;
+    width: 10%;
+    width: 50px;
+    height: 50px;
+    right: 0.5rem;
+    top: 0.5rem;
+  }
+  
+  .nav-links {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(39, 38, 38, 0.656);
+    backdrop-filter: blur(3px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -100vw;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+  }
+  
+  .mobile-menu {
+    margin-left: 0;
+  }
+  
+  .nav-links > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 0%;
+  }
+  
+  .nav-links > ul > li > a {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  
+  main {
+    padding-top: 40px;
+  }
+
+  .inMain {
+    height: auto;
+  }
+  
+  .haut {
+    zoom: 0.8;
+    position: relative;
+    top: 50px;
+  }
+
+  .mid {
+    zoom: 0.8;
+    height: 60%;
+  }
+  
+  .mid > section {
+    height: 300px;
+    width: 90%;
+  }
+  
+  .border {
+    padding-bottom: 5vh;
+    bottom: 10vh;
+  }
+
+  .subSec > div {
+    font-size: 4.7vw;
+    width: 100%;
+  }
+
+  .contact {
+    position: relative;
+    bottom: 40px;
+    font-size: 6vw;
+  }
+
+  .border2 {
+    bottom: 5vh;
+  }
+  
+  .bas1 {
+    width: 90%;
+    height: 200px;
+  }
+  
+  .bas1 > section > div > p {
+    position: relative;
+    right: 10px;
+    width: 40vw;
+    font-size: 3.1vw;
+  }
+  
+  .second > section > div > p {
+    right: 0px;
+    left: 30px;
+    text-align: end;
+  } 
+
+  footer {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .bas1 {
+    height: 160px;
+  }
+
+  .bas1 > section > div > p {
+    position: relative;
+    right: 10px;
+    width: 50vw;
+    font-size: 3.5vw;
+  }
+
+  .second > section > div > p {
+    right: 0px;
+    left: 10px;
+    text-align: end;
+  } 
+}
